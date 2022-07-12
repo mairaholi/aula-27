@@ -1,0 +1,51 @@
+﻿@{
+	ViewData["Title"] = "Todo List";
+}
+
+
+
+
+@*<input class="form-control" type="text" placeholder ="Add Task..." aria-label="readonly input example" readonly>*@
+
+<h3>Todo List</h3>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<input type="text" class="form-control" placeholder="Add Task...">
+		</div>
+		<div class="col-auto">
+			<button type="button" class="btn btn-primary">+</button>
+		</div>
+	</div>
+</div>
+
+
+@{
+	string[] Tasks = { "Lavar a louça", "Varrer o Chão", "Fazer um resumo" };
+}
+
+<h4>My Tasks</h4>
+<ul class="list-group">
+
+
+	@foreach (var task in Tasks)
+	{
+
+		<li class="list-group-item">
+			<div class="container">
+				<div class="row">
+					<div class="col-auto">
+						<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+					</div>
+					<div class="col">
+						@task
+					</div>
+					<div class="col-auto">
+						<button type="button" class="btn btn-danger text-end">Delete</button>
+					</div>
+				</div>
+			</div>
+		</li>
+	}
+
+</ul>
