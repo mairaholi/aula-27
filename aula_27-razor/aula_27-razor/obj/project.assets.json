@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mairao\\Documents\\aula16\\aula_27-razor\\aula_27-razor\\aula_27-razor.csproj",
+      "projectUniqueName": "C:\\Users\\mairao\\Desktop\\aula-27\\aula_27-razor\\aula_27-razor\\aula_27-razor.csproj",
       "projectName": "aula_27-razor",
-      "projectPath": "C:\\Users\\mairao\\Documents\\aula16\\aula_27-razor\\aula_27-razor\\aula_27-razor.csproj",
+      "projectPath": "C:\\Users\\mairao\\Desktop\\aula-27\\aula_27-razor\\aula_27-razor\\aula_27-razor.csproj",
       "packagesPath": "C:\\Users\\mairao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mairao\\Documents\\aula16\\aula_27-razor\\aula_27-razor\\obj\\",
+      "outputPath": "C:\\Users\\mairao\\Desktop\\aula-27\\aula_27-razor\\aula_27-razor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mairao\\AppData\\Roaming\\NuGet\\NuGet.Config",
